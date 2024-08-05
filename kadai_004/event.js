@@ -4,7 +4,7 @@ $(function() {
       $('div').text('loadイベントが発生しました')
     }
     if(e.type === 'scroll'){
-      $('div').text('scrollイベントが発生しました')
+      console.log('scrollイベントが発生しました')
     }
   });
 });
